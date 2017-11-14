@@ -34,11 +34,11 @@ xiyouLinux图书借阅平台
 > 存放测试类
 
 ---
-### uploads目录
+### upload目录
 > 存放上传的文件
 
 ---
-### views
+### view
 > 存放jsp、html等文件
 
 ---
