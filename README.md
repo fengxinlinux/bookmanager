@@ -4,22 +4,22 @@ xiyouLinux图书借阅平台
 ## 整体架构说明
 
 ### config目录
-- **springconfig**
+- **spring**
 > 放置spring的配置文件
 
-- **databaseconfig**
+- **database**
 > 放置数据库的配置文件
 
 ---
 ### dao目录
-- **daofactory**
+- **dbfactory**
 > dao接口的生产工厂
 
-- **daoimpl**
-> 定义数据库的操作接口
+- **dbimpl**
+> 数据库接口的实现类
 
-- **daoobject**
-> 数据库的操作类
+- **dbservice**
+> 数据库所提供的调用接口
 
 ---
 ### model目录
