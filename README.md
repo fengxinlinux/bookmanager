@@ -3,44 +3,27 @@ xiyouLinux图书借阅平台
 
 ## 整体架构说明
 
-### config目录
-- **spring**
-> 放置spring的配置文件
+```
+config ----spring <-放置spring的配置文件  
+       | 
+       ----database <-放置数据库的配置文件  
 
-- **database**
-> 放置数据库的配置文件
+ dao ----dbfactory <-dao接口的生产工厂  
+     |
+     ----dbimpl   <-数据库接口的实现类  
+     |
+     ----dbservice <-数据库所提供的调用接口  
 
----
-### dao目录
-- **dbfactory**
-> dao接口的生产工厂
+model ---- <-存放Java Bean等数据模型  
 
-- **dbimpl**
-> 数据库接口的实现类
+web  ---- <-存放控制器  
 
-- **dbservice**
-> 数据库所提供的调用接口
+test ---- <-存放测试类  
 
----
-### model目录
-> 存放Java Bean等数据模型
+upload ---- <-存放上传的文件  
 
----
-### web目录
-> 存放控制器
-
----
-### test目录
-> 存放测试类
-
----
-### upload目录
-> 存放上传的文件
-
----
-### view
-> 存放jsp、html等文件
-
+view ---- <-存放jsp、html等文件
+```
 ---
 
 还有css、js等目录不在这里说明。
