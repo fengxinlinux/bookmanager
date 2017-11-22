@@ -6,13 +6,13 @@ xiyouLinux图书借阅平台
 ```
 config ----spring <-放置spring的配置文件  
        | 
-       ----database <-放置数据库的配置文件  
+       +---database <-放置数据库的配置文件  
 
- dao ----dbfactory <-dao接口的生产工厂  
+dao  ----dbfactory <-dao接口的生产工厂  
      |
-     ----dbimpl   <-数据库接口的实现类  
+     +---dbimpl   <-数据库接口的实现类  
      |
-     ----dbservice <-数据库所提供的调用接口  
+     +---dbservice <-数据库所提供的调用接口  
 
 model ---- <-存放Java Bean等数据模型  
 
